@@ -24,11 +24,40 @@
 
   /* Font weight */
   --weight-large: 900;
-  --weight-semi-bold: 500;
-  --weight-regular: 400;
+  --weight-semi-bold: 700;
+  --weight-regular: 500;
 }
 
 /* Universal tags */
 * {
   box-sizing: border-box;
+}
+
+/* Typograpghy */
+h1 {
+  font-size: var(--font-large);
+  font-weight: var(--weight-large);
+  color: var(--color-black);
+  margin: 16px 0;
+}
+
+h2 {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-semi-bold);
+  color: var(--color-black);
+  margin: 8px 0;
+}
+
+h3 {
+  font-size: var(--font-regular);
+  font-weight: var(--font-regular);
+  color: var(--color-black);
+  margin: 8px 0;
+}
+
+p {
+  font-size: var(--font-regular);
+  font-weight: var(--font-regular);
+  color: var(--color-black);
+  margin: 4px 0;
 }
